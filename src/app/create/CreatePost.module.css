@@ -1,0 +1,58 @@
+body,
+html {
+  background-color: #1a202c; /* Dark background */
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Wrapper to contain all elements properly */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #1a202c;
+}
+
+/* Styling for the container box */
+.container {
+  background-color: #1a202c; /* Dark background */
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 400px;
+  width: 100%;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Input field styles */
+.inputField {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background-color: #2d3748; /* Slightly lighter dark background */
+  color: white;
+}
+
+/* Submit button styles */
+.submitButton {
+  background-color: #3182ce; /* Blue button */
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submitButton:hover {
+  background-color: #2b6cb0; /* Darker blue on hover */
+}
