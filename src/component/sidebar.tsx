@@ -41,7 +41,7 @@ export default function Sidebar({
       toast.error("Please log in to create a post!");
       router.push("/");
     } else {
-      router.push("/create");
+       router.push("/create");
     }
   };
 
